@@ -155,3 +155,4 @@ while juegito != 6:
                                                                                                     while vida == 2:
                                                                                                         print("¡GANASTE!") #:D
                                                                                                         break 
+  
