@@ -38,7 +38,6 @@ while juegito != 6:
     juegito = int(input("Ingrese el número del juego que desee jugar: "))
 
     if juegito == 1:
-
         def buscaminas(vida):
 
             vida = 1
@@ -162,7 +161,6 @@ while juegito != 6:
                                                                                                         while vida == 2:
                                                                                                             print("¡GANASTE!") #:D
                                                                                                             break 
-
         jugar = 0
         buscaminas(jugar)
     if juegito == 2:
