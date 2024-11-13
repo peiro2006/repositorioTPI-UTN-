@@ -53,3 +53,5 @@ def piedrapapeltijera(ejemplo):
             if rM == 3:
                 print("¡Perdiste!")
                 break
+f = 0
+piedrapapeltijera(f)
