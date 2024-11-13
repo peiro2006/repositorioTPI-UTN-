@@ -1,16 +1,16 @@
-def piedrapapeltijera(ejemplo):
-    import random
+def piedrapapeltijera(ejemplo): #Aplicamos la función
+    import random #Le pedimos a la maquina que elija una opción aleatoria
     print("")
     print("Piedra = 1")
     print("Papel = 2        ¡Gana el mejor de 3!")
     print("Tijera = 3")
-    print("")
+    print("") #Elegimos la opción nosotros
 
-    jugando= 0 
+    jugando= 0  
     rM = 0
     rJ = 0
 
-    juego = [1,2,3]
+    juego = [1,2,3] #opciones a elegir, 1 piedra, 2 papel y 3 tijeras
 
     while rM != 3 and rJ != 3:
         eleccionMaquina = random.sample(juego,1)[0]
@@ -45,7 +45,7 @@ def piedrapapeltijera(ejemplo):
                 print("La maquina eligió piedra, perdiste!")
                 rM = rM + 1
 
-    while jugando == 0:
+    while jugando == 0: #Llegados a este punto se disputa el ganador
         if rJ == 3:
             print("¡Ganaste!")
             break
@@ -54,4 +54,4 @@ def piedrapapeltijera(ejemplo):
                 print("¡Perdiste!")
                 break
 f = 0
-piedrapapeltijera(f)
+piedrapapeltijera(f) #Llamado a la función
